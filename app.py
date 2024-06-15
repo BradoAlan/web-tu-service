@@ -4,7 +4,7 @@ import requests
 from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title='Tu Service Especializado', page_icon='👨‍🔧', layout='wide')
-email_contact = 'fernando@yahoo.com'
+email_contact = 'alan.luis.maggio@gmail.com'
 
 #Carga de CSS
 def css_load(css_file):
