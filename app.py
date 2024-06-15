@@ -118,7 +118,7 @@ with st.container():
     st.header('Contacta con nosotros 📩')
     st.write('##')
     contact_form = f"""
-        <form action="https://formsubmit.co/{email_contact}" method="POST>
+        <form action="https://formsubmit.co/{email_contact}" method="POST">
         <input type="hidden" name="_captcha" value="false">
             <label for="name">Nombre</label>
             <input type="text" id="name" name="firstname" placeholder="Tu nombre..." required>
