@@ -4,7 +4,6 @@ import requests
 from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title='Tu Service Especializado', page_icon='👨‍🔧', layout='wide')
-email_contact = 'alan.luis.maggio@gmail.com'
 
 #Carga de CSS
 def css_load(css_file):
@@ -117,8 +116,8 @@ with st.container():
     st.write('---')
     st.header('Contacta con nosotros 📩')
     st.write('##')
-    contact_form = f"""
-        <form action="https://formsubmit.co/{email_contact}" method="POST">
+    contact_form = """
+        <form action="https://formsubmit.co/8db6ee048edf8780cff40b9c16f316c6" method="POST">
         <input type="hidden" name="_captcha" value="false">
             <label for="name">Nombre</label>
             <input type="text" id="name" name="firstname" placeholder="Tu nombre..." required>
